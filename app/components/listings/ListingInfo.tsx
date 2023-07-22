@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 import { IconType } from "react-icons";
 
-import { Rating } from "@mui/material";
+import Rating from "@mui/material/Rating";
 
 import useCountries from "@/app/hooks/useCountries";
 import { SafeUser } from "@/app/types";
