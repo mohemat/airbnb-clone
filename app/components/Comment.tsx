@@ -27,7 +27,7 @@ const Comment: React.FC<CommentProps> = ({ comment }) => {
   const charCount = comment.comment.length;
 
   return (
-    <div className="sm:mb-6">
+    <div className="mb-6 md:mb-0">
       <div className="col-span-4 flex flex-col gap-8">
         <div className="flex flex-col gap-2">
           <div
